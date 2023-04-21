@@ -1,0 +1,237 @@
+body{
+    background-image:url("background.png");
+}
+.outer{
+    width: 1225px;
+    height: 640px;
+    background-color: white;
+}
+.in{
+    width: 1225px;
+    height: 20px;
+}
+.mar{
+    color: rgb(254,58,56);
+}
+.inner{
+    width: 1180px;
+    height: 455px;
+    background-color: rgb(248, 250, 252);
+
+}
+.inner1{
+    width: 1180px;
+    height:455px;
+}
+
+
+/*---TABLE COLOUMN ONE START HERE*/
+
+.coloum1table1{
+    width: 275px;
+    height: 280px;
+    background-color: white;
+}
+.coloum1table2{
+    width: 230px;
+    height: 240px;
+    background-color:rgb(133, 43, 113) ;
+    position:relative;
+    top:22px;
+    left:22px;
+    border-radius: 20px;
+}
+.coloum1table3{
+
+     width: 230px;
+    height:150px;
+    background-color:white;
+    position:relative;
+    top:35px;
+    border-radius: 0px 0px 20px 20px;
+}
+.coloum1table4{
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+h5{
+    color:rgb(248, 77, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight:lighter;
+}
+.coloum1table5{
+    position: relative;
+    bottom:44px;
+    left:90px;
+}
+.space{
+    width: 100px;
+    height: 5px;
+
+}
+.txt1[type=text]
+{
+    width: 100px;
+    border: 1px solid #cccccc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p_txt1[type=password]{
+    width: 100px;
+    border: 1px solid #cccccc;
+}
+.employ{
+    position: relative;
+    bottom: 35px;
+    left: -5px;
+}
+h4{
+    position: relative;
+    top:50px;
+    left: 100px;
+    color: white;
+    font-family: sans-serif;
+    font: weight 5px;
+
+}
+/*---TABLE COLOUMN TWO START HERE*/
+
+.coloum2table1{
+    width: 275px;
+    height: 280px;
+    background-color: white;
+}
+.coloum2table2{
+    width: 230px;
+    height: 240px;
+    background-color:rgb(246,104,38) ;
+    position:relative;
+    top:22px;
+    left:22px;
+    border-radius: 20px;
+}
+.coloum2table3{
+
+     width: 230px;
+    height:150px;
+    background-color:white;
+    position:relative;
+    top:35px;
+    border-radius: 0px 0px 20px 20px;
+}
+.coloum2table4{
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+h5{
+    color:rgb(248, 77, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight:lighter;
+}
+.coloum2table5{
+    position: relative;
+    bottom:44px;
+    left:90px;
+}
+.space{
+    width: 100px;
+    height: 5px;
+
+}
+.txt1[type=text]
+{
+    width: 100px;
+    border: 1px solid #cccccc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p_txt1[type=password]{
+    width: 100px;
+    border: 1px solid #cccccc;
+}
+.student{
+    position: relative;
+    bottom: 35px;
+    left: -5px;
+}
+h4{
+    position: relative;
+    top:50px;
+    left: 100px;
+    color: white;
+    font-family: sans-serif;
+    font: weight 5px;
+
+}
+/*---TABLE COLOUMN THREE START HERE*/
+
+.coloum3table1{
+    width: 275px;
+    height: 280px;
+    background-color: white;
+}
+.coloum3table2{
+    width: 230px;
+    height: 240px;
+    background-color:rgb(82,163,239);
+    position:relative;
+    top:22px;
+    left:22px;
+    border-radius: 20px;
+}
+.coloum3table3{
+
+     width: 230px;
+    height:150px;
+    background-color:white;
+    position:relative;
+    top:35px;
+    border-radius: 0px 0px 20px 20px;
+}
+.coloum3table4{
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+h5{
+    color:rgb(248, 77, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight:lighter;
+}
+.coloum3table5{
+    position: relative;
+    bottom:44px;
+    left:90px;
+}
+.space{
+    width: 100px;
+    height: 5px;
+
+}
+.txt1[type=text]
+{
+    width: 100px;
+    border: 1px solid #cccccc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p_txt1[type=password]{
+    width: 100px;
+    border: 1px solid #cccccc;
+}
+.parent{
+    position: relative;
+    bottom: 35px;
+    left: -5px;
+}
+h4{
+    position: relative;
+    top:50px;
+    left: 100px;
+    color: white;
+    font-family: sans-serif;
+    font: weight 5px;
+
+}

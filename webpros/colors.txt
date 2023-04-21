@@ -1,0 +1,22 @@
+
+
+Bakgorund color=rgb(209,220,235);
+
+text color for User/Password=rgb(180,20,0)
+
+techer color=rgb(128,20,105)
+
+
+student color= rgb(246,104,38)
+
+
+parent color= rgb(82,163,239)
+
+
+
+copy rights color= rgb(153,213,255)
+
+copy rights upper border= rgb(139,166,200)
+
+
+marquee tag color=rgb(254,58,56)
