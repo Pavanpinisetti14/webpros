@@ -53,7 +53,7 @@ body{
 .coloum1table4{
     position: relative;
     left: 20px;
-    top:20px;
+    top:0px;
 }
 h5{
     color:rgb(248, 77, 54);
@@ -63,7 +63,7 @@ h5{
 }
 .coloum1table5{
     position: relative;
-    bottom:44px;
+    top:-68px;
     left:90px;
 }
 .space{
@@ -83,7 +83,7 @@ h5{
 }
 .employ{
     position: relative;
-    bottom: 35px;
+    bottom: 65px;
     left: -5px;
 }
 h4{
@@ -95,6 +95,19 @@ h4{
     font: weight 5px;
 
 }
+.coloum1table6{
+    width: 60px;
+    height: 20px;
+    background-image:linear-gradient(rgb(133, 43, 113),white);
+    border-radius:20px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 300%;
+}
 /*---TABLE COLOUMN TWO START HERE*/
 
 .coloum2table1{
@@ -105,7 +118,7 @@ h4{
 .coloum2table2{
     width: 230px;
     height: 240px;
-    background-color:rgb(246,104,38) ;
+    background-color:rgb(246,104,38);
     position:relative;
     top:22px;
     left:22px;
@@ -123,7 +136,7 @@ h4{
 .coloum2table4{
     position: relative;
     left: 20px;
-    top:20px;
+    top: -4px;
 }
 h5{
     color:rgb(248, 77, 54);
@@ -133,7 +146,7 @@ h5{
 }
 .coloum2table5{
     position: relative;
-    bottom:44px;
+    bottom:73px;
     left:90px;
 }
 .space{
@@ -153,7 +166,7 @@ h5{
 }
 .student{
     position: relative;
-    bottom: 35px;
+    bottom:65px;
     left: -5px;
 }
 h4{
@@ -164,6 +177,19 @@ h4{
     font-family: sans-serif;
     font: weight 5px;
 
+}
+.coloum2table6{
+    width: 60px;
+    height: 20px;
+    background-image:linear-gradient(rgb(246,104,38),white);
+    border-radius:20px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 300%;
 }
 /*---TABLE COLOUMN THREE START HERE*/
 
@@ -193,7 +219,7 @@ h4{
 .coloum3table4{
     position: relative;
     left: 20px;
-    top:20px;
+    top: -3px;
 }
 h5{
     color:rgb(248, 77, 54);
@@ -203,7 +229,7 @@ h5{
 }
 .coloum3table5{
     position: relative;
-    bottom:44px;
+    top:-70;
     left:90px;
 }
 .space{
@@ -223,7 +249,7 @@ h5{
 }
 .parent{
     position: relative;
-    bottom: 35px;
+    bottom: 70px;
     left: -5px;
 }
 h4{
@@ -232,6 +258,19 @@ h4{
     left: 100px;
     color: white;
     font-family: sans-serif;
-    font: weight 5px;
-
+    font-weight: 100;
+}
+.coloum3table6{
+    width: 60px;
+    height: 20px;
+    background-image:linear-gradient(rgb(82,163,239),white);
+    border-radius:20px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 300%;
+    color: black;
 }
