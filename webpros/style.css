@@ -53,7 +53,7 @@ body{
 .coloum1table4{
     position: relative;
     left: 20px;
-    top:0px;
+    top:26px;
 }
 h5{
     color:rgb(248, 77, 54);
@@ -63,7 +63,7 @@ h5{
 }
 .coloum1table5{
     position: relative;
-    top:-68px;
+    bottom:40px;
     left:90px;
 }
 .space{
@@ -76,6 +76,7 @@ h5{
     width: 100px;
     border: 1px solid #cccccc;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
 }
 .p_txt1[type=password]{
     width: 100px;
@@ -83,7 +84,7 @@ h5{
 }
 .employ{
     position: relative;
-    bottom: 65px;
+    bottom: 35px;
     left: -5px;
 }
 h4{
@@ -95,18 +96,19 @@ h4{
     font: weight 5px;
 
 }
-.coloum1table6{
-    width: 60px;
+.login1{
+    width: 55px;
     height: 20px;
-    background-image:linear-gradient(rgb(133, 43, 113),white);
-    border-radius:20px;
+    background-image: linear-gradient(rgb(133, 43, 113) , white);
+    border-radius: 10px;
+    font-size: small;
     text-align: center;
     position: relative;
-    top: 110px;
-    left: 150px;
+    left: 140px;
+    bottom: 16px;
     font-family: sans-serif;
-    font-size: small;
-    font-weight: 300%;
+    font-weight:bold;
+    color: black;
 }
 /*---TABLE COLOUMN TWO START HERE*/
 
@@ -118,7 +120,7 @@ h4{
 .coloum2table2{
     width: 230px;
     height: 240px;
-    background-color:rgb(246,104,38);
+    background-color:rgb(246,104,38) ;
     position:relative;
     top:22px;
     left:22px;
@@ -136,7 +138,7 @@ h4{
 .coloum2table4{
     position: relative;
     left: 20px;
-    top: -4px;
+    top:20px;
 }
 h5{
     color:rgb(248, 77, 54);
@@ -146,7 +148,7 @@ h5{
 }
 .coloum2table5{
     position: relative;
-    bottom:73px;
+    bottom:44px;
     left:90px;
 }
 .space{
@@ -159,6 +161,7 @@ h5{
     width: 100px;
     border: 1px solid #cccccc;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
 }
 .p_txt1[type=password]{
     width: 100px;
@@ -166,8 +169,8 @@ h5{
 }
 .student{
     position: relative;
-    bottom:65px;
     left: -5px;
+    bottom: 70px;
 }
 h4{
     position: relative;
@@ -175,21 +178,22 @@ h4{
     left: 100px;
     color: white;
     font-family: sans-serif;
-    font: weight 5px;
+    font-weight: bold;
 
 }
-.coloum2table6{
-    width: 60px;
+.login2{
+    width: 55px;
     height: 20px;
-    background-image:linear-gradient(rgb(246,104,38),white);
-    border-radius:20px;
+    background-image: linear-gradient(rgb(246,104,38) , white);
+    border-radius: 10px;
+    font-size: small;
     text-align: center;
     position: relative;
-    top: 110px;
-    left: 150px;
+    left: 140px;
+    bottom: 16px;
     font-family: sans-serif;
-    font-size: small;
-    font-weight: 300%;
+    font-weight:bold;
+    color: black;
 }
 /*---TABLE COLOUMN THREE START HERE*/
 
@@ -207,6 +211,10 @@ h4{
     left:22px;
     border-radius: 20px;
 }
+.head3{
+    color: black;
+    font-family: sans-serif;
+}
 .coloum3table3{
 
      width: 230px;
@@ -219,7 +227,7 @@ h4{
 .coloum3table4{
     position: relative;
     left: 20px;
-    top: -3px;
+    top:20px;
 }
 h5{
     color:rgb(248, 77, 54);
@@ -229,7 +237,7 @@ h5{
 }
 .coloum3table5{
     position: relative;
-    top:-70;
+    bottom:44px;
     left:90px;
 }
 .space{
@@ -256,21 +264,20 @@ h4{
     position: relative;
     top:50px;
     left: 100px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: 100;
+    font-weight: bold;
+
 }
-.coloum3table6{
-    width: 60px;
+.login3{
+    width: 55px;
     height: 20px;
-    background-image:linear-gradient(rgb(82,163,239),white);
-    border-radius:20px;
+    background-image: linear-gradient(rgb(82,163,239) , white);
+    border-radius: 10px;
+    font-size: small;
     text-align: center;
     position: relative;
-    top: 110px;
-    left: 150px;
+    left: 140px;
+    bottom: 16px;
     font-family: sans-serif;
-    font-size: small;
-    font-weight: 300%;
+    font-weight:bold;
     color: black;
 }

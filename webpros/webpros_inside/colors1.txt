@@ -1,0 +1,26 @@
+left side background color:rgb(77,130,210)
+
+left side font color :rgb(0,0,255)
+
+left side hovwe color:rgb(171,211,249)
+
+left side menu bar color:rgb(77,130,210)
+
+right side background color:rgb(228,241,252)
+
+right sode font color:rgb(46,131,198)
+
+right side div background color:rgb(233,244,253)
+
+headings of right side bar color:rgb(62,80,139)
+
+upper long bar color :rgb(153,204,255)
+
+upper long bar background color:rgb(209,220,235)
+
+upper bar font color:rgb(99,95,153)
+
+overall backgroung color:rgb(209,220,235)
+
+print and export button color:rgb(72,191,240)
+
