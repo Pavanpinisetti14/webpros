@@ -24,7 +24,7 @@ body{
     height: 1400px;
     background-color: white;
     position: relative;
-    top: -20px;
+    top: 1px;
     right:505px;
     border: 1px solid rgb(82,163,239)ue;
 }
@@ -33,6 +33,33 @@ body{
     font-family: sans-serif;
     font-size:smaller;
     position: relative;
-    top: 11px;
+    top: 10px;
     font-weight:lighter;
+}
+.innerdiv1_3_1{
+    width: 183px;
+    height: 590px;
+    border: 1px solid rgb(153,204,255);
+    position: relative;
+    left:3px;
+}
+.innerdiv1_3_2{
+    width:183px;
+    height:40px;
+    background-color:rgb(77,130,210);
+    position: inherit;
+    top: -23px;
+    left: 0px;
+}
+table{
+    width: 183px;
+    height:552px;
+    border: 1px solid black;
+    position: inherit;
+    top:-23px;
+}
+.ref_link{
+    text-decoration: none;
+    font-size: small;
+    font-weight: lighter;
 }
