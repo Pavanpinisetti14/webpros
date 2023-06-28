@@ -23,7 +23,7 @@
     width: 600px;
     height: 550px;
     position: relative;
-    top: 97px;   
+    top: 200px;   
 }
 .contianer_upper{
     color:black;
@@ -37,10 +37,11 @@
 }
 p{
     font-size: 85px;
-    font-weight:200;
+    font-weight: bold;
 }
 .G{
     color: rgb(64, 150, 248);
+   
 }
 .o{
     color: red;
@@ -66,8 +67,8 @@ p{
     top: 90px;
     left: 5px;
     border: 2px solid;
-    border-color: rgb(194, 194, 193);
-    box-shadow: 1px 1px 5px 1px rgb(158, 157, 157);
+    border-color: rgb(225, 229, 231);
+    box-shadow: 3px 2px 3px 3px rgb(240, 235, 235);
 }
 .search{
     display: flex;
