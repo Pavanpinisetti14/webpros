@@ -1,32 +1,60 @@
 body{
     background-image: url('./background.png');
+    margin: 0px;
 }
 .outerdiv{
     background-color: rgb(209,220,235);
+    /* background-color: black; */
     width: 1200px;
-    height: 1600px;
+    height: 1615px;
 }
-.innerdiv1_1{
+.container_1{
     width: 1200px;
-    height:160px;
+    height:145px;
     background-color: white;
 }
-.innerdiv1_2{
+#Ulabel{
+    float: left;
+    position: absolute;
+    top: 7px;
+}
+.container_2{
     width: 1200px;
     height:30px;
     background-color: rgb(153,204,255);
     position: relative;
     top: -11px;
 }
-
+.container_3{
+    width: 1200px;
+    height: 1400px;
+    /* background-color: brown; */
+    position: relative;
+    display: -webkit-flex;
+    top: -65px;
+}
 .innerdiv1_3{
-    width: 190px;
+    width: 194px;
     height: 1400px;
     background-color: white;
     position: relative;
-    top: -20px;
-    right:505px;
-    border: 1px solid rgb(82,163,239)ue;
+    left: 1px;
+    /* border: 1px solid rgb(82,163,239); */
+}
+.innerdiv1_4{
+    width: 194px;
+    height: 1400px;
+    /* background-color: springgreen; */
+    position:relative;
+    top:-22px;
+}
+.innerdiv1_3_1{
+    width:190px;
+    height:38px;
+    position: relative;
+    top: -1px;
+    left: 2.5px;
+    background-color:rgb(77,130,210);
 }
 .menu_style{
     color:white;
@@ -51,19 +79,21 @@ a{
     height:-3px;
 }
 table{
-    width:180px;
-    height:1000px; 
-    border:1px solid balck;
-}
-table{
-    border: 1px solid blue;
-    position: inherit;
-    left:4px;
-}
-.innerdiv1_3_1{
-    width:180px;
-    height:38px;
-    background-color:rgb(77,130,210);
+    border: 1px solid rgb(82,163,239);
     position: relative;
-    left:4px;
+    top: -1px;
+    left:2.5px;
 }
+.innerdiv_main_inner{
+    width: 990px;
+    height: 1400px;
+    background-color: white;
+    border: 2px solid rgb(77,130,210);
+    position: relative;
+    left: 17px;
+}
+.frame{
+    width: 990px;
+    height: 1400px;
+}
+    

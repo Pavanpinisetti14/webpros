@@ -1,5 +1,8 @@
 body{
-    background-image:url("background.png");
+    background-image:url("./background.png");
+}
+a{
+    text-decoration: none;
 }
 .outer{
     width: 1225px;
@@ -16,7 +19,7 @@ body{
 .inner{
     width: 1180px;
     height: 455px;
-    background-color: rgb(248, 250, 252);
+    background-color: rgb(245,245,245)
 
 }
 .inner1{
@@ -42,8 +45,7 @@ body{
     border-radius: 20px;
 }
 .coloum1table3{
-
-     width: 230px;
+    width: 230px;
     height:150px;
     background-color:white;
     position:relative;
@@ -78,23 +80,37 @@ h5{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
 }
-.p_txt1[type=password]{
+
+.p_txt2{
     width: 100px;
     border: 1px solid #cccccc;
 }
 .employ{
     position: relative;
-    bottom: 35px;
-    left: -5px;
+    bottom: 49px;
+    right: 10px;
 }
-h4{
+.username{
+    width: 300px;
+    height: 50px; 
     position: relative;
-    top:50px;
-    left: 100px;
-    color: white;
-    font-family: sans-serif;
-    font: weight 5px;
-
+    top:25px;
+    left: 15px;
+}
+.label1{
+    color:rgb(248, 77, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 2px;
+}
+.password{
+    width: 300px;
+    height: 50px; 
+    position: relative;
+    top:5px;
+    left: 24px;
 }
 .login1{
     width: 55px;
@@ -104,11 +120,13 @@ h4{
     font-size: small;
     text-align: center;
     position: relative;
-    left: 140px;
-    bottom: 16px;
+    left: 130px;
+    top: 10px;
     font-family: sans-serif;
     font-weight:bold;
     color: black;
+    border: none;
+    cursor: pointer;
 }
 /*---TABLE COLOUMN TWO START HERE*/
 
@@ -169,8 +187,8 @@ h5{
 }
 .student{
     position: relative;
-    left: -5px;
-    bottom: 70px;
+    right: 15px;
+    bottom: 35px;
 }
 h4{
     position: relative;
@@ -188,12 +206,14 @@ h4{
     border-radius: 10px;
     font-size: small;
     text-align: center;
-    position: relative;
-    left: 140px;
-    bottom: 16px;
+    position: absolute;
+    left: 130px;
+    top: 110px;
     font-family: sans-serif;
     font-weight:bold;
     color: black;
+    border: none;
+    cursor: pointer;
 }
 /*---TABLE COLOUMN THREE START HERE*/
 
@@ -257,8 +277,8 @@ h5{
 }
 .parent{
     position: relative;
-    bottom: 70px;
-    left: -5px;
+    bottom: 30px;
+    right: 0px;
 }
 h4{
     position: relative;
@@ -274,10 +294,12 @@ h4{
     border-radius: 10px;
     font-size: small;
     text-align: center;
-    position: relative;
-    left: 140px;
-    bottom: 16px;
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+    border: none;
     font-family: sans-serif;
     font-weight:bold;
     color: black;
+    cursor: pointer;
 }

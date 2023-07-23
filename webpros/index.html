@@ -21,21 +21,18 @@
                                             <div class="coloum1table2">  
                                                 <h4><b>Employee Login</b></h4>                                       
                                                 <div class="coloum1table3">
-                                                    <div class="coloum1table4">
-                                                        <h5><b>User Name <br><br>Password</b></h5>
-                                                    </div>
-                                                    <div class="coloum1table5">
-                                                        <form action="./data.php" method="post">
+                                                    <form action="./webpros_inside/index.html">
+                                                        <div class="username">
+                                                            <label class="label1">User Name</label> 
                                                             : <input type="text" class="txt1">
-                                                            <div class="space"></div>
-                                                            : <input type="password" class="p_txt1">
-                                                        </form>
-                                                    </div>
-                                                    <a href="./fool.html">
-                                                        <div class="login1"><b>LOGIN</b></div>
-                                                    </a>
-                                                    <img src="./employ.jpg" alt="teacher" width="90px" height="90px" class="employ">
-                                                  
+                                                        </div>
+                                                        <div class="password">
+                                                            <label class="label1">password</label> 
+                                                            : <input type="password" class="p_txt2">
+                                                        </div>
+                                                        <input type="submit" value="LOGIN" class="login1">
+                                                    </form>
+                                                    <img src="./employ.jpg" alt="teacher" width="90px" height="90px" class="employ">                               
                                                 </div>                                                
                                             </div>
                                         </div>
@@ -45,20 +42,17 @@
                                             <div class="coloum2table2">  
                                                 <h4><b>Student Login</b></h4>                                       
                                                 <div class="coloum2table3">
-                                    
-                                                    <div class="coloum2table4">
-                                                        <h5><b>User Name <br><br>Password</b></h5>
-                                                    </div>
-                                                    <div class="coloum2table5">
-                                                        <form action="data.php" method="post">
-                                                            : <input type="text" class="txt1" name="user">
-                                                            <div class="space"> </div>
-                                                            : <input type="password" class="p_txt1" name="pass">
-                                                        </form>
-                                                    </div>
-                                                    <a href="./fool.html">
-                                                        <div class="login2"><b>LOGIN</b></div>
-                                                    </a>
+                                                    <form action="./webpros_inside/index.html">
+                                                        <div class="username">
+                                                            <label class="label1">User Name</label> 
+                                                            : <input type="text" class="txt1" id="uname">
+                                                        </div>
+                                                        <div class="password">
+                                                            <label class="label1">password</label> 
+                                                            : <input type="password" class="p_txt2">
+                                                        </div>
+                                                        <input type="submit" value="LOGIN" class="login2" id="Sub">
+                                                    </form>
                                                     <img src="./student.jpg" alt="student" width="90px" height="100px" class="student">
                                                 </div>                                                
                                             </div>
@@ -67,22 +61,20 @@
                                     <td style="width:250;">
                                         <div class="coloum3table1">                                 
                                             <div class="coloum3table2">  
-                                                <h4><b>Parents Login</b></h4>                                       
+                                                <h4 style="color: black;"><b>Parents Login</b></h4>                                       
                                                 <div class="coloum3table3">
-                                            
-                                                    <div class="coloum3table4">
-                                                        <h5><b>User Name <br><br>Password</b></h5>
-                                                    </div>
-                                                    <div class="coloum3table5">
-                                                        <form action="./data.php" method="post">
+                                                    <form action="./webpros_inside/index.html">
+                                                        <div class="username">
+                                                            <label class="label1">User Name</label> 
                                                             : <input type="text" class="txt1">
-                                                            <div class="space"></div>
-                                                            : <input type="password" class="p_txt1">
-                                                        </form>
-                                                    </div>
-                                                    <a href="./fool.html">
-                                                        <div class="login3"><b>LOGIN</b></div>
-                                                    </a>
+                                                        </div>
+                                                        <div class="password">
+                                                            <label class="label1">password</label> 
+                                                            : <input type="password" class="p_txt2">
+                                                        </div>
+                                                        <input type="submit" value="LOGIN" class="login3">
+                                                    </form>
+                                
                                                     <img src="./parent.jpg" alt="student" width="90px" height="90px" class="parent">
                                                 </div>                                                
                                             </div>
@@ -101,5 +93,16 @@
                 </div>
             </div>
         </center>
+
+        <script type="text/javascript">
+            document.getElementById('Sub').onclick = function(){
+            console.log("HEllO");
+            var User_name = document.getElementById('uname').value;
+
+            console.log(User_name);
+            localStorage.setItem("U_name", User_name);
+            console.log("HI");
+            }
+        </script>
     </body>
 </html>
