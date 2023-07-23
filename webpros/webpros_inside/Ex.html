@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .collapsible {
+    width: 950px;
+    height: 27px;
+    align-items:start;
+    display: flex;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #b4cfe4;
+    background: #d4e7f7 url('./line.png') 50% 50% repeat-x;
+    font-weight: bold;
+    color: #2e6e9e;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.content {
+    padding: 0 18px;
+    /* border: 2px solid #a6c9e2; */
+    border: 7px solid #d4e7f7;
+    background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x;
+    color: #222222;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 914px;
+    position: relative;
+    top: -8px;
+    left: 0.8px;
+    border-top: 0px;
+    border-radius: 0px 0px 6px 6px;
+    
+}
+#rotated{
+    position: relative;
+    top: 7px;
+    left: 5px;
+
+    }
+.collapse{
+    width:990px;
+    height: 1000px;
+    /* background-color: tomato; */
+    padding-top: 50px;
+    
+}
+span{
+    font-family: tahoma,arial, helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    top: 2px;
+    font-size: 14px;
+}
+p{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <!-- <div class="collapsible">
+            <img src="/arrow.png" alt="arrow" id="rotated" width="5px" height="10px">
+            <span>Bio-Data</span>
+        </div>
+        <div class="content">
+            <p>--Fools--</p>
+        </div>
+    
+        <div class="collapsible">
+            <img src="/arrow.png" alt="arrow" id="rotated" width="5px" height="10px">
+            <span>Bio-Data</span>
+        </div>
+        <div class="content">
+            <p>--Fools--</p>
+        </div> -->
+        
+    </center>
+    <script >
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        var rotate = document.getElementById('rotate');
+       
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                content.style.maxHeight = null;
+                //rotate.style.transform = 'rotate(0deg)';
+                rotated.style.transform = 'rotate(0deg)';
+                console.log("OK");
+                }
+                else
+                {
+                content.style.maxHeight = content.scrollHeight + "px";
+                //rotate.style.transform = 'rotate(90deg)';
+                rotated.style.transform = 'rotate(90deg)';
+                console.log("Now-OK");
+                } 
+            });
+        }
+        
+        
+    </script>
+</body>
+</html>
